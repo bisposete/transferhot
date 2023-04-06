@@ -1,0 +1,32 @@
+#navbar {
+    height: 200px;
+}
+
+#navbar-conteiner {
+    flex-direction: column;   
+}
+
+.navbar-itens {
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar-itens li:nth-child(2) {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+
+    
+/* noticias */
+#hoje {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+
+
+
+/* aovivo */
+#solidBlack{
+    opacity: 0;
+}

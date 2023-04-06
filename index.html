@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias, rumores e mais!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+
+</head>
+
+<body class="dark-mode">
+  <nav id="navbar">
+    <div id="navbar-conteiner">
+      <a href="#showcase">
+        <h1 class="logo">TransferInfo</h1>
+      </a>
+      <ul class="navbar-itens">
+        <a href="#noticias">
+          <li>Notícias</li>
+        </a>
+        <a href="#transferencias">
+          <li>Transferencias</li>
+        </a>
+        <a href="#aovivo">
+          <li>Ao vivo</li>
+        </a>
+        <li><a href="#clubs">Clubes</a></li>
+        <li>
+          <button class="loginStart">Login</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="showcase">
+    <div id="showcase-conteiner">
+      <h2>O Maior Site Do Mundo Da Bola!</h2>
+      <p>Todas as notícias, transferencias e rumores você encontra aqui.</p>
+      <a href="#search-box" class="btn">Explorar</a>
+    </div>
+  </header>
+
+
+
+
+  <!-- noticias -->
+  <section id="noticias">
+    <div class="headline">Notícias</div>
+    <div id="hoje">
+      <div class="slideshow">
+        <input type="radio" class="radio" name="slide" id="slide1" checked>
+        <input type="radio" class="radio" name="slide" id="slide2">
+        <input type="radio" class="radio" name="slide" id="slide3">
+        <input type="radio" class="radio" name="slide" id="slide4">
+        <input type="radio" class="radio" name="slide" id="slide5">
+
+        <div class="slide s1">
+          <img
+            src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt112fe908ac89026a/63ef5df01194533ca01eb4c1/GOAL_-_Blank_WEB_-_Facebook_-_2023-02-17T101101.164.png"
+            alt="neymar" title="Fora de Paris? Neymar pode ser negociado ainda nessa janela pelo Paris Saint-Germain."
+            class="slides-news">
+        </div>
+
+        <div class="slide">
+          <img
+            src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt6d666c254d82ed14/63e2defad9c4b924628948ed/GettyImages-1463879807.jpg"
+            alt="vitor pereira"
+            title="De saída? Entenda como Vitor Pereira pode trocar de clube após o cameponato carioca."
+            class="slides-news">
+        </div>
+
+        <div class="slide">
+          <img
+            src="https://imagens.ebc.com.br/uvItHazvcZ_0ku0giEF-0RY9Rgs=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2022-12-13t215256z_720160999_up1eicd1j9vm2_rtrmadp_3_soccer-worldcup-arg-cro-report.jpg?itok=xqEh-sBs"
+            alt="Messi" title="Fora do PSG! Craque afirma não renovar com o clube parisiense." class="slide-news">
+        </div>
+
+        <div class="slide">
+
+          <img
+            src="https://www.ofutebolero.com.br/__export/1674013487921/sites/elfutboleromx/img/2023/01/17/gabigol-flamengo-1.png_786377123.png"
+            alt="Gabriel Barbosa" title="Ele fica? Gabriel recebe proposta milionária de um clube da espanha"
+            class="slide-news">
+
+
+        </div>
+
+
+        <div class="slide">
+
+        </div>
+
+      </div>
+
+      <div class="navigation">
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+      </div>
+  </section>
+
+  <!-- Transferencias -->
+  <section>
+    <div id="transferencias">
+      <div id="header">Transferencias</div>
+      <table class="transferencias-conteiner">
+        <tr>
+          <th>Name</th>
+          <th class="">Team</th>
+          <th>ㅤ</th>
+          <th class="arrow1"> → </th>
+          <th>For</th>
+          <th>Value</th>
+          <th>Date</th>
+
+        </tr>
+        <tr class="">
+          <td>Robert Lewandowski</td>
+          <td class=""><img src="https://logodetimes.com/times/bayern-munchen/bayern-munchen-4096.png" class="escudos">
+          </td>
+          <td class=""><img
+              src="https://www.fcbarcelona.com/photo-resources/2022/11/02/9b93a4c7-2ec5-4409-b08e-e551b1c983df/mini_09-ROBERT_LEWANDOWSKI.png?width=670&amp;height=790"
+              alt="" class="jogadores"></td>
+          <td class="arrow2"> → </td>
+          <td><a href="barcelona.html"><img src="https://logodetimes.com/times/barcelona/logo-barcelona-4096.png" alt=""
+                class="escudos"></a></td>
+          <td> 45M£ </td>
+          <td class="">19/07/2022</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+          <td>Raphinha</td>
+          <td><img src="https://logodetimes.com/times/leeds-united-football-club/leeds-united-football-club-1024.png"
+              alt="" class="escudos"></td>
+
+          <td><img
+              src="https://www.fcbarcelona.com/photo-resources/2022/11/02/a82e5b51-cf1d-48ca-872f-753ab665386a/mini_22-RAPHINHA.png?width=670&amp;height=790"
+              class="jogadores"></td>
+          <td class="arrow2"> → </td>
+          <td><a href="barcelona.html"><img src="https://logodetimes.com/times/barcelona/logo-barcelona-4096.png" alt=""
+                class="escudos"></a></td>
+          <td>58M£</td>
+          <td>13/07/2022</td>
+        </tr>
+        <tr>
+          <td>Frank Kessie</td>
+          <td><img src="https://logodetimes.com/times/associazione-calcio-milan/associazione-calcio-milan-4096.png"
+              alt="" class="escudos"></td>
+          <td> <img
+              src="https://www.fcbarcelona.com/photo-resources/2022/11/02/676f52d0-08be-489a-8443-c421a580528f/mini_19-FRANCK_KESSIE.png?width=670&amp;height=790"
+              alt="" class="jogadores"></td>
+          <td class="arrow2"> → </td>
+          <td><a href="barcelona.html"><img src="https://logodetimes.com/times/barcelona/logo-barcelona-4096.png" alt=""
+                class="escudos"></a></td>
+          <td> 0£</td>
+          <td>04/07/20022</td>
+        </tr>
+        <tr>
+          <td>Andrea Christensen</td>
+          <td><img src="https://logodownload.org/wp-content/uploads/2017/02/chelsea-fc-logo-escudo.png" alt=""
+              class="escudos"></td>
+
+          <td><img
+              src="https://www.fcbarcelona.com/photo-resources/2022/11/02/ab61c1e5-7b11-4528-bb2a-f9660b74f276/mini_15-ANDREAS_CHRISTENSEN.png?width=670&amp;height=790"
+              alt="" class="jogadores"></td>
+          <td class="arrow2"> → </td>
+          <td><a href="barcelona.html"><img src="https://logodetimes.com/times/barcelona/logo-barcelona-4096.png" alt=""
+                class="escudos"></a></td>
+          <td> 0£</td>
+          <td>01/07/20022</td>
+        </tr>
+        <tr>
+          <td>Marcos Alonso</td>
+          <td><img src="https://logodownload.org/wp-content/uploads/2017/02/chelsea-fc-logo-escudo.png" alt=""
+              class="escudos"></td>
+          <td><img
+              src="https://www.fcbarcelona.com/photo-resources/2022/11/02/ec6ed80a-44b5-4cbb-a382-400958b5cafa/mini_17-MARCOS_ALONSO.png?width=670&amp;height=790"
+              alt="" class="jogadores"></td>
+          <td class="arrow2"> → </td>
+          <td><a href="barcelona.html"><img src="https://logodetimes.com/times/barcelona/logo-barcelona-4096.png" alt=""
+                class="escudos"></a></td>
+          <td> 0M£ + Pierre-Emerick Aubameyang</td>
+          <td> 02/07/2022</td>
+        </tr>
+        <tr>
+          <td>Jules Koundé</td>
+          <td><img src="https://logodetimes.com/times/sevilla/logo-sevilla-2048.png" alt="" class="escudos">
+          </td>
+          <td><img
+              src="https://www.fcbarcelona.com/photo-resources/2022/11/02/0318a5d5-1cf4-44ce-832f-8c5160738c9f/mini_23-JULES_KOUNDE.png?width=670&height=790"
+              alt="" class="jogadores"></td>
+          <td class="arrow2"> → </td>
+          <td><a href="barcelona.html"><img src="https://logodetimes.com/times/barcelona/logo-barcelona-4096.png" alt=""
+                class="escudos"></a></td>
+          <td> 50M£</td>
+          <td> 27/07/2022</td>
+        </tr>
+        <tr>
+          <td>Pablo Torre</td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/pt/c/ce/Racing_de_Santander_escudo.png" alt=""
+              class="escudos"></td>
+          <td><img src="https://assets.laliga.com/squad/2022/t178/p522627/2048x2225/p522627_t178_2022_1_001_000.png"
+              alt="" class="jogadores"></td>
+          <td class="arrow2"> → </td>
+          <td><a href="barcelona.html"><img src="https://logodetimes.com/times/barcelona/logo-barcelona-4096.png" alt=""
+                class="escudos"></a></td>
+          <td> 5M£</td>
+          <td> 01/07/2022</td>
+        </tr>
+        <tr>
+          <td>Hector Bellerin</td>
+          <td><img src="https://logodetimes.com/times/arsenal-football-club/arsenal-football-club-4096.png" alt=""
+              class="escudos"></td>
+          <td><img src="https://media02.tr.beinsports.com/img/players/P1516.png" alt="" class="jogadores">
+          </td>
+          <td class="arrow2"> → </td>
+          <td><a href="barcelona.html"><img src="https://logodetimes.com/times/barcelona/logo-barcelona-4096.png" alt=""
+                class="escudos"></a></td>
+          <td> 0M£</td>
+          <td> 01/09/2022</td>
+        </tr>
+        <tr>
+          <td>Antonio Rudiger</td>
+          <td><img src="https://logodownload.org/wp-content/uploads/2017/02/chelsea-fc-logo-escudo.png" alt=""
+              class="escudos"></td>
+          <td><img src="https://assets.laliga.com/squad/2022/t186/p102380/2048x2225/p102380_t186_2022_1_001_000.png"
+              alt="" class="jogadores"></td>
+          <td class="arrow2"> → </td>
+          <td><a href="realmadrid.html"><img
+                src="https://logodownload.org/wp-content/uploads/2016/03/Real-Madrid-logo-1.png" alt=""
+                class="escudos"></a></td>
+          <td> 0M£</td>
+          <td> 01/07/2022</td>
+        </tr>
+        <tr>
+          <td>Aurelien Tchouameni</td>
+          <td><img src="https://logodetimes.com/times/as-monaco/as-monaco-2048.png" alt="" class="escudos">
+          </td>
+          <td><img src="https://assets.laliga.com/squad/2022/t186/p219292/2048x2225/p219292_t186_2022_1_001_000.png"
+              alt="" class="jogadores"></td>
+          <td class="arrow2"> → </td>
+          <td><a href="realmadrid.html"><img
+                src="https://logodownload.org/wp-content/uploads/2016/03/Real-Madrid-logo-1.png" alt=""
+                class="escudos"></a></td>
+          <td> 80M£</td>
+          <td> 01/07/2022</td>
+        </tr>
+        <tr>
+          <td>Miguel Gutiérrez</td>
+          <td><a href="realcastilla.html"><img
+                src="https://logodownload.org/wp-content/uploads/2016/03/Real-Madrid-logo-1.png" alt=""
+                title="Real Castilla" class="escudos"></a></td>
+          <td><img
+              src="novo design/MIGUEL_GUTIERREZThumb.jpg_filename__UTF-8__MIGUEL_GUTIERREZThumb-removebg-preview.png"
+              alt="" class="jogadores"></td>
+          <td>→</td>
+          <td><a href="realmadrid.html"><img
+                src="https://logodownload.org/wp-content/uploads/2016/03/Real-Madrid-logo-1.png" alt="" class="escudos"
+                title="Real Madrid"></a></td>
+          <td> - </td>
+          <td>1/07/2022</td>
+        </tr>
+        <tr>
+          <td>Antonio Blanco</td>
+          <td><a href="realcastilla.html"><img
+                src="https://logodownload.org/wp-content/uploads/2016/03/Real-Madrid-logo-1.png" alt=""
+                title="Real Castilla" class="escudos"></a></td>
+          <td><img src="https://1vs1-7f65.kxcdn.com/img/players/large/png/antonio-blanco-conde-271487_1060.png" alt=""
+              class="jogadores" title="Antiono Blanco"></td>
+          <td>→</td>
+          <td><a href="realmadrid.html"><img
+                src="https://logodownload.org/wp-content/uploads/2016/03/Real-Madrid-logo-1.png" alt="" class="escudos"
+                title="Real Madrid"></a></td>
+          <td> - </td>
+          <td>1/07/2022</td>
+        </tr>
+        <tr>
+          <td>Vitinha</td>
+          <td><img src="https://logodetimes.com/times/porto/logo-porto-2048.png" alt="" class="escudos"></td>
+          <td><img
+              src="https://images.psg.media/media/227375/card-season-22-23-vitinha.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75"
+              alt="" class="jogadores"></td>
+          <td>→</td>
+          <td><a href=""><img
+                src="https://logodownload.org/wp-content/uploads/2017/02/psg-logo-escudo-paris-saint-germain.png" alt=""
+                class="escudos"></a></td>
+          <td>41.50mi€</td>
+          <td>1/07/2022</td>
+        </tr>
+        <tr>
+          <td>Nuno Mendes</td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png" alt=""
+              class="escudos"></td>
+          <td><img
+              src="https://images.psg.media/media/210082/card-season-22-23-mendes.png?center=0.5,0.5&mode=crop&width=400&height=600&quality=75"
+              alt="" class="jogadores"></td>
+          <td>→</td>
+          <td><a href=""><img
+                src="https://logodownload.org/wp-content/uploads/2017/02/psg-logo-escudo-paris-saint-germain.png" alt=""
+                class="escudos"></a></td>
+          <td>38,00mi€</td>
+          <td>13/07/2022</td>
+        </tr>
+      </table>
+  </section>
+
+
+  <section>
+    <div id="aovivo">
+      <div class="head">Ao Vivo</div>
+      <i class="fa-sharp fa-solid fa-signal-stream"></i>
+      <div class="stream">
+        <div id="solidBlack"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clubes -->
+  <section>
+    <div id="clubs">
+      <div class="clubs-head">Clubes</div>
+      <div class="clubs-conteiner">
+
+        </table>
+      </div>
+      <h2>Pais</h2>
+      <select id="pais">
+        <option value="">Selecione Um País</option>
+        <option value="inglaterra">Inglaterra</option>
+        <option value="Espanha">Espanha</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Alemanha">Alemanha</option>
+        <option value="Italia">Italia</option>
+      </select>
+
+      <select id="ligas">
+        <option value="">Selecione Uma Liga</option>
+      </select>
+
+      <table class="premierLeague" style="display: none;">
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/4us2nCgl6kgZc0t3hpW75Q_48x48.png" alt=""></td>
+          <td><a href="">Arsenal</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/uyNNelfnFvCEnsLrUL-j2Q_48x48.png" alt=""></td>
+          <td><a href="">Aston Villa</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/IcOt-hrK04B-RlRwI3R0yA_48x48.png" alt=""></td>
+          <td><a href="">Bournemouth</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/QOUce0WQBYqnkSmN6_TxGA_48x48.png" alt=""></td>
+          <td><a href="">Brentford</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/EKIe0e-ZIphOcfQAwsuEEQ_48x48.png" alt=""></td>
+          <td><a href=""> Brighton</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/fhBITrIlbQxhVB6IjxUO6Q_48x48.png" alt=""></td>
+          <td><a href=""> Chelsea</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/8piQOzndGmApKYTcvyN9vA_48x48.png" alt=""></td>
+          <td><a href=""> Crystal Palace</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/C3J47ea36cMBc4XPbp9aaA_48x48.png" alt=""></td>
+          <td><a href="">Everton</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/Gh7_5p3n364p4vxeM8FhNg_48x48.png" alt=""></td>
+          <td><a href="">Fulham</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/5dqfOKpjjW6EwTAx_FysKQ_48x48.png" alt=""></td>
+          <td><a href="">Leeds United</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/UDYY4FSlty6fXFBzvFfcyw_48x48.png" alt=""></td>
+          <td><a href="">Leicester City</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/0iShHhASp5q1SL4JhtwJiw_48x48.png" alt=""></td>
+          <td><a href="">Liverpool</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/z44l-a0W1v5FmgPnemV6Xw_48x48.png" alt=""></td>
+          <td><a href="">Manchester City</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png" alt=""></td>
+          <td><a href="">Manchester United</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/96CcNNQ0AYDAbssP0V9LuQ_48x48.png" alt=""></td>
+          <td><a href="">Newcastle</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/Zr6FbE-8pDH7UBpWCO8U9A_48x48.png" alt=""></td>
+          <td><a href="">Nottingham Forest</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/y1V4sm2SEBiWUPRIYl5rfg_48x48.png" alt=""></td>
+          <td><a href="">Southampton</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/k3Q_mKE98Dnohrcea0JFgQ_48x48.png" alt=""></td>
+          <td><a href="">Tottenham</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/bXkiyIzsbDip3x2FFcUU3A_48x48.png" alt=""></td>
+          <td><a href="">Westham United</a></td>
+        </tr>
+        <tr>
+          <td><img src="https://ssl.gstatic.com/onebox/media/sports/logos/-WjHLbBIQO9xE2e2MW3OPQ_48x48.png" alt=""></td>
+          <td><a href="">Wolverhampton Waanders</a></td>
+        </tr>
+      </table>
+
+    </div>
+  </section>
+
+  <!-- Pesquisa -->
+  <section>
+    <div class="search-conteiner">
+      <div class="search-head">Explorar</div>
+      <div id="search-box">
+        <input type="text" class="search-txt" placeholder="Pesquisar">
+        <a href="#" class="search-btn">
+          <img src="novo design/lupa.svg" alt="lupa" height="20" width="20">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="footer">
+      <p>©2023 - Todos Os Direitos Reservados</p>
+    </div>
+  </section>
+
+  <!-- Login -->
+  <section>
+    <section>
+      <div id="login" class="modal-conteiner">
+        <div class="modal">
+          <form action="">
+            <h2>Login</h2>
+            <div id="msgError"></div>
+            <div class="inputbox">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input type="text" required id="login" placeholder="Email">
+
+            </div>
+            <div class="inputbox">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+              <input type="password" required id="senha" placeholder="Senha">
+
+            </div>
+            <div class="forget">
+              <label for=""><input type="checkbox">Remember Me
+                <hr class="hrlogin">
+                <a href="#">Forget Password</a>
+              </label>
+            </div>
+            <input class="button" type="submit" onclick="logar(); return false">
+            <div class="register">
+              <p>Don't have a account <a href="cadastro.html">Register</a></p>
+            </div>
+          </form>
+
+          <input id="fechar" type="button" value="X">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e217b5d238.js" crossorigin="anonymous"></script>
+</body>
+
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<!-- our js file -->
+<script src="script.js"></script>
+
+</html>
